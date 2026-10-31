@@ -5,6 +5,7 @@ import models, schemas, service
 
 models.Base.metadata.create_all(bind=engine)
 
+# Create FastAPI Obj
 app = FastAPI()
 
 @app.get("/")
